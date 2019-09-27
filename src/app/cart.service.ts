@@ -5,9 +5,7 @@ export class CartService {
   constructor() {}
 
   addToCart(product) {
-  console.log('from product = ' + product.name);
     this.items.push(product);
-  console.log('from this.items[0] = ' + this.items[0].name);
   }
 
   getItems() {
